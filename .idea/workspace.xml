@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55593fdd-0750-4ff0-afd1-d53edf354435" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/budget.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TennisTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BudgetService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBudgetRepo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BudgetServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/budget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/budget.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TennisTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,37 +34,113 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
+          <entry key="json" value="2" />
+          <entry key="php" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
+          <entry key="json" value="42" />
+          <entry key="php" value="2818" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="13" />
+          <entry key="JSON" value="42" />
+          <entry key="PHP" value="2818" />
+          <entry key="PLAIN_TEXT" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test">
+        <counts>
+          <entry key="source.empty" value="1" />
+          <entry key="with.framework.PHPUnit.without.selected.methods" value="1" />
+          <entry key="without.target.element" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IBudgetRepo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/BudgetServiceTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="e#89#109#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BudgetService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Difference.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="699" selection-start-line="699" selection-end-line="699" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Modifiers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="339" column="30" lean-forward="true" selection-start-line="339" selection-start-column="30" selection-end-line="339" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>diff</find>
+      <find>diffIn</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +149,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/IBudgetRepo.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/BudgetServiceTest.php" />
+        <option value="$PROJECT_DIR$/src/BudgetService.php" />
       </list>
     </option>
   </component>
@@ -84,7 +162,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="XAMPP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
@@ -114,6 +192,9 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -135,6 +216,11 @@
             </path>
             <path>
               <item name="budget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="budget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="budget" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -146,6 +232,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,6 +248,44 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="PHPUnit.BudgetServiceTest">
+    <configuration name="BudgetServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BudgetServiceTest" file="$PROJECT_DIR$/tests/BudgetServiceTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BudgetServiceTest.test_across_month" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BudgetServiceTest" file="$PROJECT_DIR$/tests/BudgetServiceTest.php" method="test_across_month" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BudgetServiceTest.test_full_one_month_budget" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BudgetServiceTest" file="$PROJECT_DIR$/tests/BudgetServiceTest.php" method="test_full_one_month_budget" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BudgetServiceTest.test_range_in_the_same_month" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BudgetServiceTest" file="$PROJECT_DIR$/tests/BudgetServiceTest.php" method="test_range_in_the_same_month" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BudgetServiceTest.test_should_return_zero_when_this_month_has_no_budget" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BudgetServiceTest" file="$PROJECT_DIR$/tests/BudgetServiceTest.php" method="test_should_return_zero_when_this_month_has_no_budget" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.BudgetServiceTest" />
+      <item itemvalue="PHPUnit.BudgetServiceTest.test_full_one_month_budget" />
+      <item itemvalue="PHPUnit.BudgetServiceTest.test_range_in_the_same_month" />
+      <item itemvalue="PHPUnit.BudgetServiceTest.test_should_return_zero_when_this_month_has_no_budget" />
+      <item itemvalue="PHPUnit.BudgetServiceTest.test_across_month" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.BudgetServiceTest" />
+        <item itemvalue="PHPUnit.BudgetServiceTest.test_across_month" />
+        <item itemvalue="PHPUnit.BudgetServiceTest.test_range_in_the_same_month" />
+        <item itemvalue="PHPUnit.BudgetServiceTest.test_full_one_month_budget" />
+        <item itemvalue="PHPUnit.BudgetServiceTest.test_should_return_zero_when_this_month_has_no_budget" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,23 +298,55 @@
       <updated>1541836595107</updated>
       <workItem from="1541836598394" duration="142000" />
       <workItem from="1541836747057" duration="38000" />
-      <workItem from="1541836807050" duration="124000" />
+      <workItem from="1541836807050" duration="5790000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 11m 33s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest_test_range_in_the_same_month - 2018.11.10 at 17h 11m 51s.xml">
+      <configuration name="BudgetServiceTest.test_range_in_the_same_month" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 11m 57s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 19m 38s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 20m 24s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 21m 56s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 24m 39s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest_test_across_month - 2018.11.10 at 17h 26m 50s.xml">
+      <configuration name="BudgetServiceTest.test_across_month" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 28m 28s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BudgetServiceTest - 2018.11.10 at 17h 31m 23s.xml">
+      <configuration name="BudgetServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304000" />
+    <option name="totallyTimeSpent" value="5970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2358643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.047657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,12 +369,127 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/BudgetService.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PHPUnitRunConfigurationType">
+        <watch expression="$thisMonthDays" />
+        <watch expression="$startDate-&gt;format(&quot;Y-m-d&quot;)" language="PHP" />
+        <watch expression="$endDate-&gt;format(&quot;Y-m-d&quot;)" language="PHP" />
+        <watch expression="$this-&gt;totalAmount($startDate, $startDate-&gt;copy()-&gt;lastOfMonth())" />
+        <watch expression="$startDate-&gt;copy()-&gt;lastOfMonth()-&gt;format(&quot;Y-m-d&quot;)" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>$startDate-&gt;copy()-&gt;lastOfMonth()-&gt;format(&quot;Y-m-d&quot;)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$endDate-&gt;format(&quot;Y-m-d&quot;)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$startDate-&gt;format(&quot;Y-m-d&quot;)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$startDate-&gt;format(&quot;YY-mm-dd&quot;)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$startDate-&gt;format(&quot;YYYY-mm-dd&quot;)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/TennisTest.php" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="488" column="6" selection-start-line="488" selection-start-column="6" selection-end-line="488" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Modifiers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="339" column="30" lean-forward="true" selection-start-line="339" selection-start-column="30" selection-end-line="339" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Difference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IBudgetRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="475" column="27" selection-start-line="475" selection-start-column="27" selection-end-line="475" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BudgetServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#89#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BudgetService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
